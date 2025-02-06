@@ -50,4 +50,5 @@ The app will be live at http://localhost:3000 🌍.
 For questions, feel free to reach out!
 
 📧 Linkedin: [Click](https://www.linkedin.com/in/sohitmishra/)
+
 🔗 GitHub: [Click](https://github.com/sohit-mishra)
