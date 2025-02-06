@@ -1,16 +1,17 @@
 "use client";
 import Image from "next/image";
 import { createPost } from "@/app/contact/actions";
+import { FormEvent } from "react";
 
 export default function Contact() {
-  async function handleSubmit(event) {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const formData = new FormData(event.target);
+
+    const formData = new FormData(event.target as HTMLFormElement);
     const result = await createPost(formData);
 
-    alert("Thank you so much for contacting me! " + result.success);
-    event.target.reset();
-  }
+    console.log(result);
+  };
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6 mt-20">
