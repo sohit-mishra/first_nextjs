@@ -49,6 +49,6 @@ The app will be live at http://localhost:3000 🌍.
 ## 📞 Contact Me
 For questions, feel free to reach out!
 
-📧 **LinkedIn:** [Sohit Mishra](https://www.linkedin.com/in/sohitmishra/)  
+📧 **LinkedIn:** [Sohit Mishra](https://www.linkedin.com/in/sohitmishra)  
 
 🔗 **GitHub:** [sohit-mishra](https://github.com/sohit-mishra)
